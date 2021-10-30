@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        cream: "#fcf1cf",
+      },
       fontFamily: {
         "roboto-condensed": ["Roboto Condensed", "sans-serif"],
         "permanent-marker": ["Permanent Marker", "cursive"],
