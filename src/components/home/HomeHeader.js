@@ -3,18 +3,18 @@ import homeStyles from "./Home.module.css";
 
 export default function HomeHeader() {
   return (
-    <section className="bg-cream z-10 font-roboto-condensed">
+    <section className="bg-cream z-10 font-roboto-condensed text-gray-700">
       <div className="flex flex-col justify-center items-center text-xl z-10">
         <div className="z-10 text-2xl text-white">
           Call Now For A Free Estimate
         </div>
         <div className="z-10 text-2xl text-white">541-555-5555</div>
       </div>
-      <div className="container mx-auto p-8 my-12">
-        <h1 className="text-2xl md:text-4xl">
+      <div className="container mx-auto p-8 my-24 text-gray-800">
+        <h1 className="text-3xl md:text-4xl">
           A Complete Solution for Your Landscaping Vision.
         </h1>
-        <h2 className="p-2 md:p-4">
+        <h2 className="p-2 md:p-4 mb-24 text-xl my-8">
           With over 20 years of experience, Landscape Company has earned the
           reputation as Southern Oregon's premier landscape and maintenance
           company.
