@@ -1,6 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Nav from "./components/nav/Nav";
+import Footer from "./components/footer/Footer";
 import HomePage from "./pages/homepage";
 import ContactPage from "./pages/contactpage";
 import ProjectsPage from "./pages/projectspage";
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/contact" component={ContactPage} />
         <Route exact path="/projects" component={ProjectsPage} />
       </Switch>
+      <Footer />
     </div>
   );
 }
