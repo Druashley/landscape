@@ -1,5 +1,5 @@
 import React from "react";
-import CallBanner from "../nav/CallBanner";
+import CallBanner from "../other/CallBanner";
 import homeStyles from "./Home.module.css";
 
 export default function HomeHeader() {

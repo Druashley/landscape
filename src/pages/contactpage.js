@@ -1,9 +1,9 @@
 import React from "react";
-
+import ContactHeader from "../components/contact/ContactHeader";
 export default function ContactPage() {
   return (
     <div className="min-h-screen">
-      <div>Contact Page</div>
+      <ContactHeader />
     </div>
   );
 }

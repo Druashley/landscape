@@ -7,18 +7,36 @@ export default function Nav() {
     <nav className="bg-green-700 text-gray-100 font-roboto-condensed">
       <div className="container flex justify-between items-center p-8 mx-auto ">
         <h1 className=" text-2xl md:text-4xl uppercase w-1/2 text-white font-permanent-marker z-10">
-          <Link to="/">Landscape</Link>
+          <Link
+            to="/"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
+            Landscape
+          </Link>
         </h1>
         <ul className="flex w-1/2 justify-around md:justify-center items-center uppercase z-10">
-          <Link to="/contact" className="md:px-12">
+          <Link
+            to="/contact"
+            className="md:px-12"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
             Contact
           </Link>
-          <Link to="/projects" className="md:px-12">
+          <Link
+            to="/projects"
+            className="md:px-12"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
             Projects
           </Link>
         </ul>
       </div>
-
       <div className={navStyles.curve}>
         <svg
           data-name="Layer 1"
