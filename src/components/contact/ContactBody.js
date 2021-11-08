@@ -3,7 +3,11 @@ import React from "react";
 export default function ContactBody() {
   return (
     <div>
-      <div className="bg-green-600  min-h-screen font-roboto-condensed text-gray-100 -mt-32 "></div>
+      <div className="bg-green-600  min-h-screen font-roboto-condensed text-gray-100 -mt-32 ">
+        <div className="container mx-auto ">
+          <div>Contact Body</div>
+        </div>
+      </div>
     </div>
   );
 }
